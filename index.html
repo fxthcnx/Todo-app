@@ -35,6 +35,7 @@
             class="form-control" 
             placeholder="Any pending tasks?"
             v-model="newTodoName" 
+            v-on:keyup.enter="addTodo"
             aria-label="Recipient's username"
                 aria-describedby="button-addon2"
             />
